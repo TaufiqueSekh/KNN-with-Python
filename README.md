@@ -24,10 +24,12 @@ While there are several distance measures that you can choose from, this article
 
 ### Euclidean distance (p=2): 
 This is the most commonly used distance measure, and it is limited to real-valued vectors. Using the below formula, it measures a straight line between the query point and the other point being measured.
+![image](https://user-images.githubusercontent.com/13853670/231434783-7b108988-99d9-4e07-bded-ef14dd96938e.png)
 
 
 ### Manhattan distance (p=1):
 This is also another popular distance metric, which measures the absolute value between two points. It is also referred to as taxicab distance or city block distance as it is commonly visualized with a grid, illustrating how one might navigate from one address to another via city streets.
+![image](https://user-images.githubusercontent.com/13853670/231434823-003ec056-9a6c-4919-97d2-2a7351656753.png)
 
 
 
@@ -38,7 +40,11 @@ This distance measure is the generalized form of Euclidean and Manhattan distanc
 
 ### Hamming distance: 
 This technique is used typically used with Boolean or string vectors, identifying the points where the vectors do not match. As a result, it has also been referred to as the overlap metric. This can be represented with the following formula:
+![image](https://user-images.githubusercontent.com/13853670/231434631-f05da660-39aa-4db5-8cee-e0c2b447137e.png)
 
+As an example, if you had the following strings, the hamming distance would be 2 since only two of the values differ.
+
+![image](https://user-images.githubusercontent.com/13853670/231434909-8408c5a2-f41b-4078-8336-905a35494abb.png)
 
 ### Compute KNN: 
 defining k
