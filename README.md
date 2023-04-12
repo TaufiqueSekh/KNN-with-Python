@@ -33,6 +33,7 @@ This is also another popular distance metric, which measures the absolute value 
 
 ### Minkowski distance: 
 This distance measure is the generalized form of Euclidean and Manhattan distance metrics. The parameter, p, in the formula below, allows for the creation of other distance metrics. Euclidean distance is represented by this formula when p is equal to two, and Manhattan distance is denoted with p equal to one.
+![image](https://user-images.githubusercontent.com/13853670/231434475-10817e9f-1fb9-4442-9751-95a4c7fb5ea3.png)
 
 
 ### Hamming distance: 
